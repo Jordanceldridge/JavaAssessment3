@@ -129,5 +129,5 @@ public class ElementCollectionTest {
         assertEquals(1, this.elements.where("number", 2).size());
 
         assertEquals(12, this.elements.where("phase", "Gas").size());
-    }
+}
 }
